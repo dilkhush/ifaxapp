@@ -37,17 +37,17 @@ To get send fax
             "fileUrl" : "HTTP url of file"
       }]
     }
-    @client.fax.send(params)
+    @client.fax.send(params: params)
 
 To resend fax
 
     params = {"jobId" : 12345}
-    @client.fax.resend(params)
+    @client.fax.resend(params: params)
 
 To Get fax status
 
     params = {"jobId" : 12345}
-    @client.fax.status(params)
+    @client.fax.status(params: params)
 
 ## Contributing
 
